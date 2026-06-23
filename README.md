@@ -8,7 +8,7 @@
     <strong style="font-size: 1em;">Tagline:</strong> Licensing, composed right.
   </div>
   <div>
-    <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;">
+    <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="120" style="border-radius: 12px;">
   </div>
 </div>
 
