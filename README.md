@@ -44,7 +44,7 @@ It is a **mandatory dependency** for all paid ogTools components and must be ins
 
 ### Prerequisites
 - **4D v21** or higher (Project mode recommended).
-- The [**4D SVG component**](https://github.com/4d/4D-SVG) must be available in your project.
+- There is no dependency for this first bric of our ogToolSuite.
 
 ### Installation via Dependencies Manager (GitHub)
 
@@ -59,20 +59,15 @@ Starting with 4D v21, the recommended way to install wok_Krolific (and any ogToo
 
 > **Note**: For team development, commit the dependency configuration file (`dependencies.json`) to your source control so all team members automatically fetch the same version from GitHub.
 
-### Required Companion Components
+### Required Companion Component
 
-The following components are not mandatory for wok_Krolific to function alone, but they are required if you use other paid ogTools modules. They will automatically integrate with wok_Krolific when installed. Add them via the Dependencies Manager using their respective GitHub URLs (e.g., `protee/wox_Xlibrary`):
-
-- `wox_Xlibrary` (Core utilities)
-- `woc_Colours` (Advanced color engine)
-- `waz_Wazar` (Intelligent UI widgets)
-- `wob_Boxes` (File repository management)
+This component is mandatory for all ogToolsSuite other components to function. It will automatically integrate with others when installed.
 
 ---
 
 ## How It Works
 
-1.  **Component Registration**: When you install any paid ogTools component, it automatically registers itself with the wok_Krolific system.
+1.  **Component Registration**: When you install any free or paid ogTools component, it automatically registers itself with the wok_Krolific system.
 2.  **License Validation**: On application startup, wok_Krolific validates all licenses, ensuring compliance and access.
 3.  **Key Management**: Licenses can be delivered via:
     - **Programmatic calls** within your registration logic.
@@ -85,15 +80,18 @@ The following components are not mandatory for wok_Krolific to function alone, b
 
 wok_Krolific is the foundational licensing pillar of the comprehensive **ogTools suite**—an integrated development ecosystem for 4D. Other key components include:
 
-| Component | Description |
-|-----------|-------------|
-| **zen_Nucleus** | The complete ORDA framework binding your database to a sophisticated UI. |
-| **wox_Xlibrary** | Core utilities for everyday development tasks. |
-| **woc_Colours** | Advanced, indexed color management engine. |
-| **waz_Wazar** | Intelligent UI widgets for modern interfaces. |
-| **wor_Recursive** | Manage hierarchical data with ease. |
-| **wob_Boxes** | Secure, Dropbox-like file repository. |
-| **wod_DevTools** | Instant documentation generation. |
+| Icon | Component | Description |
+|------|-----------|-------------|
+| <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;"> | **wok_Krolific** | License manager. |
+| <img src="https://www.protee.org/images/wox_Xlibrary/wox_Xlibrary.png" alt="wox_Xlibrary Logo" width="60" style="border-radius: 12px;"> | **wox_Xlibrary** | Core utilities for everyday development tasks. |
+| <img src="https://www.protee.org/images/wod_DevTools/wod_DevTools.png" alt="wod_DevTools Logo" width="60" style="border-radius: 12px;"> | **wod_DevTools** | Developer tools, instant documentation generation. |
+| <img src="https://www.protee.org/images/wom_Make/wom_Make.png" alt="wom_Make Logo" width="60" style="border-radius: 12px;"> | **wom_Make** | Sophisticated builder. |
+| <img src="https://www.protee.org/images/woc_Colours/woc_Colours.png" alt="woc_Colours Logo" width="60" style="border-radius: 12px;"> | **woc_Colours** | Advanced, indexed color management engine. |
+| <img src="https://www.protee.org/images/waz_Wazar/waz_Wazar.png" alt="waz_Wazar Logo" width="60" style="border-radius: 12px;"> | **waz_Wazar** | Intelligent UI widgets for modern interfaces. |
+| <img src="https://www.protee.org/images/wob_Boxes/wob_Boxes.png" alt="wob_Boxes Logo" width="60" style="border-radius: 12px;"> | **wob_Boxes** | Secure, Dropbox-like file repository. |
+| <img src="https://www.protee.org/images/wor_Recursive/wor_Recursive.png" alt="wor_Recursive Logo" width="60" style="border-radius: 12px;"> | **wor_Recursive** | Manage hierarchical data with ease. |
+| <img src="https://www.protee.org/images/wqr_QuickReport/wqr_QuickReport.png" alt="wqr_QuickReport Logo" width="60" style="border-radius: 12px;"> | **wqr_QuickReport** | A fork of 4D QuickReport with ORDA wrapper. |
+| <img src="https://www.protee.org/images/zen_Nucleus/zen_Nucleus.png" alt="zen_Nucleus Logo" width="60" style="border-radius: 12px;"> | **zen_Nucleus** | The complete ORDA framework binding your database to a sophisticated UI. |
 
 > Together, these components form a powerful framework that allows developers to focus on unique business logic rather than reinventing the wheel.
 
@@ -101,7 +99,7 @@ wok_Krolific is the foundational licensing pillar of the comprehensive **ogTools
 
 ## License
 
-wok_Krolific is a **commercial component** and is part of the paid ogTools suite. A valid license is required for use. For licensing options and trial requests, please contact the sales team directly.
+wok_Krolific is a **commercial component** but you can use it for free, and is part of the paid ogTools suite. its purpose is to manage the licenses and the ecosystem.
 
 ---
 
@@ -109,10 +107,8 @@ wok_Krolific is a **commercial component** and is part of the paid ogTools suite
 
 wok_Krolific supports the following languages out-of-the-box:
 
-- 🇺🇸 English (EN)
-- 🇫🇷 French (FR)
-- 🇪🇸 Spanish (ES)
-- 🇩🇪 German (DE)
+- 🇺🇸 English (EN), 🇫🇷 French (FR), 🇪🇸 Spanish (ES), 🇩🇪 German (DE)
+- More on demand
 
 Localization affects error messages, UI prompts, and registration flows.
 
@@ -121,7 +117,7 @@ Localization affects error messages, UI prompts, and registration flows.
 ## Support & Resources
 
 - **Official Website**: [https://www.protee.org](https://www.protee.org)
-- **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with your purchase.
+- **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with the product.
 
 For direct inquiries:
 - **Email**: [og@protee.org](mailto:og@protee.org)
