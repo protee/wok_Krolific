@@ -1,27 +1,25 @@
+<!-- Title and badges -->
 <div align="center">
 
-<!-- Header with left text and right logo -->
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  <div style="text-align: left;">
-    <strong style="font-size: 1.2em;">Licensing, Simplified.</strong><br>
-    <strong style="font-size: 1em;">Mantra:</strong> See licenses, grant access – no more, no less.<br>
-    <strong style="font-size: 1em;">Tagline:</strong> Licensing, composed right.
-  </div>
-  <div>
-    <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="120" style="border-radius: 12px;">
-  </div>
-</div>
-
-<!-- Title and badges -->
 # wok_Krolific
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
+[![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
 [![4DPop Compatible](https://img.shields.io/badge/4DPop-Compatible-orange)](#)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](#license)
 [![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
-[![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
 
 </div>
+
+---
+
+<img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="120" align="right">
+
+<strong style="font-size:1.2em">Licensing, Simplified.</strong><br>
+<strong>Mantra:</strong> See licenses, grant access – no more, no less.<br>
+<strong>Tagline:</strong> Licensing, composed right.
+
+<br clear="both">
 
 ## Overview
 
