@@ -123,8 +123,7 @@ Localization affects error messages, UI prompts, and registration flows.
 - **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with the product.
 
 For direct inquiries:
-- **Email**: [og@protee.org](mailto:og@protee.org)
-- **Phone**: +33 6 3718 5941
+- **Email**: [info@protee.org](mailto:info@protee.org)
 
 ---
 
